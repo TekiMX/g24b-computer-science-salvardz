@@ -1,0 +1,17 @@
+INVITAR A UN AMIGO A COMER
+
+
+INICIO
+
+primero definir: Quiero invitar a un amigo a comer cualquier dia? ó Quiero invitar a comer a cualquier amigo?
+
+1- definir cual es mi prioridad: amigo o comer ahora?
+2- si cmi prioridad es amigo, definir la invitacion para hoy 
+3- ubicar medios de comunicacion para contactar a mi amigo y establecer comunicacion
+4- Enviar invitacion a mi amigo y comparar con HOY:
+	si la respuesta no es HOY, sumarle a HOY + 1diay volver a enviar invitacion y esperar respuesta para comemos mañana TRUE or FALSE.
+	si respuesta = FALSE, enviar formulario de DATE y esperar respuesta =TYPE DATE && <= HOY+10dias.
+	setear as nueva invitacion
+		definir recordatorio como nueva invitacion -1dia
+	cuando DATE = recordatorio, establecer comunicacion y proponer array de opciones de comida [pizza, hamburguesas, tacos, carnita asada]
+definir lugar de la comida 
