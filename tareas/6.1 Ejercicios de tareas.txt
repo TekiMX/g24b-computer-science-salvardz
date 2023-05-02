@@ -1,0 +1,15 @@
+4.- Programa que calcula el perimetro de 3 figuras
+https://codepen.io/TekiMX/pen/qBJPZLe
+
+5.- Dado un numero ingresado por el usuario, calcular la suma entre el numero 1 y todos los numeros hasta llega al numero ingresado
+
+
+    <script>
+        let x;
+        x = 1;
+        while (x <= 100) {
+            document.write(x);
+            document.write('<br>');
+            x = x + 1;
+        }
+    </script>
